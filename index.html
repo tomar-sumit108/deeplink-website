@@ -3,11 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deep Link Handler</title>
+    <title>Redirecting...</title>
+    <script>
+        window.onload = function() {
+            var deepLink = "https://tomar-sumit108.github.io/deeplink-website/";  // Change this to your deep link
+            window.location.href = deepLink;
+
+            // Fallback to Play Store if the app is not installed
+            setTimeout(function() {
+                window.location.href = "https://play.google.com/store/apps/details?id=com.your.package.name";
+            }, 2000);
+        };
+    </script>
 </head>
 <body>
-    <h1>Deep Link Testing</h1>
-    <p>Click the link below to test deep linking in your Android app:</p>
-    <a href="myapp://deeplink/test">Open in App</a>
+    <p>If you are not redirected, <a href="yourapp://deeplink">click here</a>.</p>
 </body>
 </html>
