@@ -4,7 +4,7 @@
     "target": {
       "namespace": "android_app",
       "package_name": "com.example.movieapp",
-      "sha256_cert_fingerprints": ["7A:B9:B6:DF:00:6D:BB:E0:A3:87:4F:24:2C:C0:9D:CA:60:92:EB:61:A8:11:C6:A8:E2:96:CE:B5:2B:E2:49:8C"]
+      "sha256_cert_fingerprints": ["75:65:79:F2:38:A8:5E:C0:42:3D:3C:47:F0:F7:E4:35:E7:CA:9F:0D:9A:B9:1A:D3:23:A2:B7:D5:5B:44:2E:76"]
     }
   }
 ]
